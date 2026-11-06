@@ -54,3 +54,8 @@ def test_backup(client):
   response = client.get("/backup")
   assert response.status_code == 200
   assert response.headers["Content-Disposition"].startswith("attachment")
+
+def test_404_not_found(client):
+    """Vérifie qu'une URL inconnue répond bien avec le statut 404"""
+    response = client.get("/route-qui-n-existe-pas-12345")
+    assert response.status_code == 404
