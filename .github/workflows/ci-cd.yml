@@ -2,9 +2,9 @@ name: CI/CD Pipeline - Resto Stock
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main", "feature/version-api" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "main", "feature/version-api" ]
 
 jobs:
   test:
