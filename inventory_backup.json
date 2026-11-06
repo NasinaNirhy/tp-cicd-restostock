@@ -1,0 +1,94 @@
+{
+    "inventory": [
+        {
+            "id": 1,
+            "name": "Poulet",
+            "category": "Viandes",
+            "quantity": 2,
+            "unit": "kg",
+            "price": 8.5,
+            "min_threshold": 5,
+            "expiry_date": "2026-06-10"
+        },
+        {
+            "id": 2,
+            "name": "Huile",
+            "category": "Épicerie",
+            "quantity": 1,
+            "unit": "L",
+            "price": 3.0,
+            "min_threshold": 3,
+            "expiry_date": "2027-01-01"
+        },
+        {
+            "id": 3,
+            "name": "Tomates",
+            "category": "Légumes",
+            "quantity": 10,
+            "unit": "kg",
+            "price": 2.5,
+            "min_threshold": 4,
+            "expiry_date": "2026-11-07"
+        },
+        {
+            "id": 4,
+            "name": "Riz",
+            "category": "Épicerie",
+            "quantity": 25,
+            "unit": "kg",
+            "price": 1.8,
+            "min_threshold": 10,
+            "expiry_date": "2028-05-12"
+        },
+        {
+            "id": 5,
+            "name": "Fromage",
+            "category": "Produits laitiers",
+            "quantity": 5.0,
+            "unit": "kg",
+            "price": 6.0,
+            "min_threshold": 2.0,
+            "expiry_date": "2026-07-01"
+        }
+    ],
+    "movements": [
+        {
+            "product": "Fromage",
+            "type": "Création / Entrée",
+            "quantity": "+5.0 kg",
+            "date": "2026-11-06 10:43"
+        },
+        {
+            "product": "Poulet",
+            "type": "Sortie",
+            "quantity": "-2 kg",
+            "date": "2026-06-05 14:30"
+        },
+        {
+            "product": "Riz",
+            "type": "Entrée",
+            "quantity": "+10 kg",
+            "date": "2026-06-05 10:15"
+        },
+        {
+            "product": "Huile",
+            "type": "Sortie",
+            "quantity": "-1 L",
+            "date": "2026-06-04 18:00"
+        }
+    ],
+    "suppliers": [
+        {
+            "name": "AgriViande Paris",
+            "phone": "01 23 45 67 89",
+            "address": "12 rue de la Rungis",
+            "email": "contact@agriviande.fr"
+        },
+        {
+            "name": "Metro Pro",
+            "phone": "01 98 76 54 32",
+            "address": "45 av. des Marchés",
+            "email": "commandes@metro.fr"
+        }
+    ]
+}
